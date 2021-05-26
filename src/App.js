@@ -2,13 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 import {HookState} from './components/HookState';
 import { HookStateObj } from './components/HookStateObj';
+import {UseEffectDemo} from './components/UseEffectDemo';
 
 function App() {
   return (
     <div className="App">
      
        {/* <HookState></HookState> */}
-       <HookStateObj/>
+       {/* <HookStateObj/> */}
+      <UseEffectDemo></UseEffectDemo>
        
      
     </div>
