@@ -7,6 +7,8 @@ import FetchData from './components/FetchData';
 import UserContextExp from './components/UserContextExp'
 import React from 'react'
 import SimplerContextUsage from './components/SimplerContextUsage';
+import UseCallback from './components/UseCallback';
+import CustomHookCounter from './components/Hooks/CustomHookCounter';
 
  export const UserContext = React.createContext()
 function App() {
@@ -19,7 +21,8 @@ function App() {
       {/* <FetchData/> */}
      
        <UserContext.Provider value = {'simpler context'}>
-        <SimplerContextUsage/>
+        {/* <SimplerContextUsage/> */}
+       <CustomHookCounter/>
        </UserContext.Provider>
      
     </div>
