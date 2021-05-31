@@ -6,6 +6,10 @@ function CustomHookCounter(){
     return(
         <div>
             <button onClick={increment}>Increment Counter - {count}</button>
+            <div>Environment - { process.env.REACT_APP_TEST}</div>
+            
+               
+            
         </div>
     )
 }
